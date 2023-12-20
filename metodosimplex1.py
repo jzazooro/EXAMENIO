@@ -1,7 +1,5 @@
 from pulp import LpMaximize, LpProblem, LpVariable
 
-
-
 # Problema de Simplex
 """Max Z = 4 x1 + 5 x2
 S.a.:

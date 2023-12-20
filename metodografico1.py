@@ -2,13 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import linprog
 
-# Problema de programación lineal
+# Problema de Programación lineal
 """Max Z = 4 x1 + 5 x2
 S.a.:
 2 x1 + x2 <= 8
 x2 <= 5"""
-
-
 
 # Definición de las restricciones
 x = np.linspace(0, 10, 400)
